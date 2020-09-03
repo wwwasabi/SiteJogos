@@ -1,0 +1,12 @@
+Projeto Site Maluco
+
+Tela Inicial:
+- Slider passando os "jogos";
+- Texto falando sobre o site;
+- Botão para mudar plano de fundo do site;
+- Botão para aumentar ou diminuir as letras;
+- Telas para acessar os jogos;
+
+Jogo 1: Snake;
+Jogo 2: Clicar na bolinha;
+Jogo 3: Criar e excluir personagens aleatórios;
