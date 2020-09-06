@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+body {
+    background-color: lightpink;
+}
+
+#score {
+    width: 8em;
+    height: 2.5em;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(152, 219, 150);
+    border-radius: 4em;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+}

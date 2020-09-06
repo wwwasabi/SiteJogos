@@ -5,6 +5,7 @@ var py;
 var velocidade;
 var objeto;
 var time;
+var cont = 0;
 
 function inicia() {
     deslocamentoX = 0;
@@ -73,28 +74,18 @@ function criarComida() {
     //     comida1.removeChild(comida);
     //     setTimeout(criarComida, 1000);
     // });
-
-    var a = 1;
-    var v;
     comida.addEventListener("click", function() {
-        if (a >= 0) {
-            comida1.removeChild(comida);
-            setTimeout(criarComida, 1000);
-            v = v + 1;
-            score(v);
-        }
-
-
-
+        comida1.removeChild(comida);
+        setTimeout(criarComida, 1000);
+        cont++;
+        score(cont);
     });
 }
-
 
 function score(c) {
     var score = document.getElementById('score');
     texto = document.createTextNode(c);
     score.appendChild(texto);
-    c++;
 }
 
 
